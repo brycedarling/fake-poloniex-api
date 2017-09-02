@@ -1,0 +1,16 @@
+{
+  "name": "fake-poloniex-api",
+  "version": "0.1.0",
+  "description": "Simulate the real-time Poloniex Push API",
+  "main": "fake-poloniex-ticks.js",
+  "repository": "git+ssh://git@github.com/brycedarling/fake-poloniex-api.git",  
+  "author": "Bryce Darling",
+  "license": "WTFPL",
+  "dependencies": {
+    "autobahn": "^17.5.2",
+    "command-line-args": "^4.0.7"
+  },
+  "scripts": {
+    "start": "node fake-poloniex-ticks.js"
+  }
+}
