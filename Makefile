@@ -1,9 +1,13 @@
 TARGET=fake-poloniex-api
+MAIN=main.go
 
-default: build run
+default: build format run
 
-build:
+build: $(MAIN)
 	go build -o $(TARGET)
+
+format: $(MAIN)
+	gofmt -w $(MAIN)
 
 run:
 	./$(TARGET)
