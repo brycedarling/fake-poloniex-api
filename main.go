@@ -94,7 +94,7 @@ func returnChartData(w http.ResponseWriter, r *http.Request, params url.Values) 
 		return
 	}
 
-	len := int((end - start) / period64)
+	len := int((end-start)/period64) + 1
 
 	quotes := make([]Quote, len)
 
