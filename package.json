@@ -1,7 +1,7 @@
 {
   "name": "fake-poloniex-api",
   "version": "0.1.0",
-  "description": "Simulate the real-time Poloniex Push API",
+  "description": "Simulate the Poloniex real-time Push API and parts of the REST API",
   "main": "fake-poloniex-ticks.js",
   "repository": "git+ssh://git@github.com/brycedarling/fake-poloniex-api.git",  
   "author": "Bryce Darling",
